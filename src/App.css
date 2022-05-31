@@ -1,0 +1,234 @@
+.img{
+  width: 30px;
+  height: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+.btn{
+  background-color: white;
+  border-color: white;
+  margin-top: 4rem;
+  border-style: solid;
+  font-size: 20px;
+}
+
+.btn1{
+  background-color: white;
+  border-color: white;
+  margin-top: 2rem;
+  
+  border-style: solid;
+  display: flex;
+  font-size: 20px;
+    
+  
+}
+
+.btnChild{
+  background-color: white;
+  border-color: white;
+  margin-top: 3rem;
+  margin-left: 12rem;
+  
+  border-style: solid;
+  display: flex;
+  font-size: 15px;
+  border-bottom-color: whitesmoke;
+  
+  
+  
+}
+
+.border_div{
+  border-style: solid;
+  border-color: whitesmoke;
+  margin-top: 4rem;
+  
+}
+
+.arrowuser{
+  width: 30px;
+  height: 20px;
+  margin-left: 10rem;
+  position: absolute;
+  margin-top: 1rem;
+}
+
+.aboutBtn{
+  background-color: white;
+  border-color: white;
+  margin-top: 2rem;
+  
+  border-style: solid;
+  display: flex;
+  font-size: 20px;
+  margin-left: 43rem;
+  padding-top: 3rem;
+ 
+     
+  
+}
+
+.othertxt{
+  font-size: 15px;
+  margin-top: 0.6rem;
+}
+
+.aboutusText{
+  margin-top: -0rem;
+  margin-left: 17rem;
+  margin-right: 17rem;
+  font-size: 7px;
+  border-style: solid;
+  border-color: rgba(225, 221, 221, 0.278);  
+}
+
+.aboutusText p{
+  font-size: 12px;
+  text-align: center;
+  margin-left: -1rem;
+}
+
+.userimg{
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  margin-left: -5rem;
+  margin-top: 0.6rem;
+}
+
+.img1{
+  width: 30px;
+  height: 20px;
+  margin-left: 1rem;
+  margin-top: 0rem;
+}
+
+.articles{
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left: -2rem;
+}
+
+@media(max-width:1280px){
+
+  .btn{
+      width: 75%;
+      margin-left: 4rem;
+  }
+
+  .aboutus{
+    width: 75%;
+    margin-left: 8rem;
+  }
+  .arrow1{
+    margin-left: 4rem;
+    
+  }
+  .othertxt{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: -2rem;
+  }
+
+  .aboutusText{
+    width: 75%;
+    margin-left: -2rem;
+
+  }
+  .aboutusText1{
+    width: 70%;
+    margin-left: 9rem;
+    
+  }
+
+  .aboutBtn{
+    width: 90%;
+    margin-left: 16rem;    
+  }
+}
+
+@media(max-width:767px){
+
+  .btn{
+      width: 45%;
+      margin-left: 2.4rem;
+  }
+
+  .aboutus{
+    width: 50%;
+    margin-left: 12rem;
+  }
+
+  .aboutusText{
+    width: 90%;
+
+  }
+
+  .aboutusText1{
+    width: 90%;
+    margin-left: 5rem;
+    
+  }
+
+  .aboutBtn{
+     width: 75%;
+      margin-left: 6rem;
+       
+  }
+
+}
+
+.arrow{
+  margin-left: 5rem;
+  padding-top: 0.5rem;
+}
+.arrow1{
+  margin-left: 4rem;
+}
+
+
+@media(max-width:475px){
+
+  .btn{
+      width: 90%;
+      margin-left: 6rem;
+  }
+
+  .aboutus{
+    width: 90%;
+    
+  }
+  .othertxt{
+    margin-left: 5rem;
+    margin-right: -4rem;
+  }
+  .aboutusText{
+    width: 90%;
+    margin-left: -12rem;
+
+  }
+  .aboutusText1{
+    width: 100%;
+    margin-left: 5rem;
+    
+  }
+
+  .aboutBtn{
+    width: 90%;
+    margin-left: 0rem;    
+  }
+  .articles{
+    margin-left: -12rem;
+  }
+}
+
